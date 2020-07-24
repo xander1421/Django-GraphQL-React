@@ -1,9 +1,10 @@
 <bold>A new take on the Django back-end with GraphQl controller to serve a React front-end<bold>
 
-
+========/========/========/
 ![](./utils/web-page-responsive.gif)
+========/========/========/
 Before you clone Install Python and NodeJS. Try get the newest versions available. 
-====/====
+========/========/========/
 If the website doesnt run with them, install the versions I have below. 
 Python_Version=3.8.4
 NodeJs=12.18.2 | yarn=1.22.4
@@ -11,7 +12,7 @@ NodeJs=12.18.2 | yarn=1.22.4
 
 1- git clone https://github.com/xander1421/Django-GraphQL-React.git
 
-========/========/========/========/========/========/========/========/========
+========/========/========/
 INSTALLATION OPTION 1
 ========/========/
 2- Install dependencies:
@@ -28,7 +29,7 @@ INSTALLATION OPTION 1
 # while in the ./Django-GraphQL-React/FRONTEND directory
     3.2- React: yarn start
 
-========/========/========/========/========/========/========/========/========
+========/========/========/
 INSTALLATION OPTION 2
 ========/========/
 If you dont want to have to deal with dependencies, I can understand you.
