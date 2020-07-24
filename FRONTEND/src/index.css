@@ -1,0 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+@tailwind utilities;

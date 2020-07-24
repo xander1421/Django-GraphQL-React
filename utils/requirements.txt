@@ -1,0 +1,5 @@
+ipython
+django 
+django_extensions 
+django-cors-headers 
+graphene-django

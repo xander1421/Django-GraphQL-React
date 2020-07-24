@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+node_modules/
+.pnp.js
+__pycache__/
+# testing
+/coverage
+
+# production
+/build
+docker-compose.yml
+# misc
+.DS_Store
+.env.local
+.vscode
+.env.development.local
+.env.test.local
+.env.production.local
+
+./FRONTEND/nnpm-debug.log*
+./FRONTEND/yarn-debug.log*
+./FRONTEND/yarn-error.log*
