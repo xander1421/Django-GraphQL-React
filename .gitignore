@@ -18,6 +18,6 @@ docker-compose.yml
 .env.test.local
 .env.production.local
 
-./FRONTEND/nnpm-debug.log*
+/FRONTEND/nnpm-debug.log*
 ./FRONTEND/yarn-debug.log*
 ./FRONTEND/yarn-error.log*
