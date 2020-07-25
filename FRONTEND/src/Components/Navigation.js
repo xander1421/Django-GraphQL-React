@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
 import {useTransition, animated} from 'react-spring'
-import NavigationMenu from './NavigationMenu'
+import NavigationMenu from './SubComponents/NavigationMenu'
   
 
 function Navigation(){
@@ -22,15 +22,19 @@ function Navigation(){
 
     return (
         <nav>
-            <button onClick={() => setShowMenu(!showMenu)} className="bg-lygo_ping hover:bg-lygo_ping-900 font-bold m-4 py-1 px-2 rounded-lg">
-                <button>
-                    
+            <div className="m-4">
+                <button onClick={() => setShowMenu(!showMenu)} className=" hover:bg-pink-900 font-bold rounded-sm">
+                    <button>
+                        
+                    </button>
+                    <FontAwesomeIcon 
+                        icon={faBars}
+                        color="white"
+                        size="2x" 
+                    />
                 </button>
-                <FontAwesomeIcon 
-                    icon={faBars}
-                    color="white"  
-                />
-            </button>
+            </div>
+
 
             {
                 maskTransitions.map(({ item, key, props }) =>

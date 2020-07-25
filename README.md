@@ -16,17 +16,17 @@ If the website doesnt run with them, install the versions I have below.
 
     > 2- Install dependencies:
 ### while in the main directory ./Django-GraphQL-React/
-    > 2.1- Python: in the terminal run=> pip install -r ./utils/requirements.txt
+    > 2.1- in the terminal run=> pip install -r ./utils/requirements.txt
 
-### while in the ./Django-GraphQL-React/FRONTEND directory
-    > 2.2- React: in the terminal run=> yarn install
+### while in the ./Django-GraphQL-React/FRONTEND/ directory
+    > 2.2- in the terminal run=> yarn install
 
     > 3- If the dependencies were installed was successfully, you can now start the 2 servers and test the app
 ### while in the main directory ./Django-GraphQL-React/
     > 3.1- Django-Start-Server: in the terminal run=> python manage.py runserver
 
 ### While in the ./Django-GraphQL-React/FRONTEND directory
-    > 3.2- React: yarn start
+    > 3.2- React-Start-Server: yarn start
 
 
 ## INSTALLATION OPTION 2

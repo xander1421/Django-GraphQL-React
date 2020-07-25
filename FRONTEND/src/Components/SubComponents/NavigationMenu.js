@@ -11,7 +11,7 @@ function NavigationMenu(props){
                 <li>
                     <Link 
                         to="/" 
-                        className="text-lygo_ping p-2 border-t border-b block"
+                        className="text-pink-500 p-2 border-t border-b block"
                         onClick={props.closeMenu}
                     >
                         Home
@@ -20,7 +20,7 @@ function NavigationMenu(props){
                 <li>
                     <Link 
                         to="/about" 
-                        className="text-lygo_ping p-2 border-b block"
+                        className="text-pink-500 p-2 border-b block"
                         onClick={props.closeMenu}
                     >
                         About

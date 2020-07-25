@@ -4,6 +4,7 @@ import { Link } from "react-router-dom"
 import gql from "graphql-tag";
 import { withRouter } from 'react-router'
 
+
 // Note the usage of argument.
 // the exclamation mark makes the slug argument as required
 // without it , argument will be optional

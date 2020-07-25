@@ -29,10 +29,10 @@ const MovieList = () => {
 
     //if query succeed, data will be available and render the data
     return(
-        <div className="text-center text-teal-500 container justify-center rounded-md overflow-hidden flex flex-wrap px-4 py-8 max-w-full my-10" >
+        <div className="text-center text-white container justify-center rounded-md overflow-hidden flex flex-wrap px-4 py-8 max-w-full my-10" >
             {data && data.movieList &&
                 data.movieList.map(movie => (
-                    <div class=" m-2 text-2xl text-center  justify-center sm:m-4 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 transform transition duration-75 ease-in-out hover:bg-teal-700 hover:-translate-y-1 hover:text-white hover:scale-110 rounded  hover:shadow-lg " key={movie.slug}>
+                    <div class=" m-2 text-2xl text-center  justify-center sm:m-4 sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 transform transition duration-75 ease-in-out hover:bg-gray-800 hover:-translate-y-1 hover:text-white hover:scale-110 rounded  hover:shadow-lg " key={movie.slug}>
                         <Link to={`/movie/${movie.slug}`}>
                         <img 
                             src={movie.posterUrl} 
@@ -46,9 +46,9 @@ const MovieList = () => {
                             <div className="font-semibold text-2xl mb-2">{movie.name}</div>
                         </div>
                         <div className="px-6 py-4">
-                            <span className="inline-block m-1 bg-white rounded-full px-3 py-1 text-sm font-semibold text-teal-900">#photography</span>
-                            <span className="inline-block m-1 bg-white rounded-full px-3 py-1 text-sm font-semibold text-teal-900">#travel</span>
-                            <span className="inline-block m-1 bg-white rounded-full px-3 py-1 text-sm font-semibold text-teal-900">#winter</span>
+                            <span className="outline-2-white hover:bg-gray-800 hover:shadow-2xl inline-block m-1 bg-gray-900 rounded-full px-3 py-1 text-sm font-semibold text-pink-500">#photography</span>
+                            <span className="inline-block m-1 bg-gray-900 rounded-full px-3 py-1 text-sm font-semibold text-pink-500">#travel</span>
+                            <span className="inline-block m-1 bg-gray-900 rounded-full px-3 py-1 text-sm font-semibold text-pink-500">#winter</span>
                         </div>
                         </Link>
                     </div>
