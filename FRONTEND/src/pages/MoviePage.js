@@ -33,14 +33,14 @@ const MoviePage = (props) => {
     if (error) return <div>Unexpected Error: {error.message}</div>
   
     return (
-        <div className="text-white">
-        <Link to="/" className="flex-1 text-gray-700 text-center bg-gray-400 px-2 py-1" >Back</Link>
+        <div className="text-white flex justify-center">
+        <Link to="/" className="text-gray-700 text-center bg-gray-400 ml-10 mb-10" >Back</Link>
             {data && data.movie && 
                 <div className="">
                     <img 
                         className=""
-                        src={data.movie.posterUrl} 
-                        alt={data.movie.name + " poster"} 
+                        src={data.movie.posterUrl}
+                        alt={data.movie.name + " poster"}
                         title={data.movie.name + " poster"} 
                     />
                     <div className="px-3 m-2">

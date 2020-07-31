@@ -40,4 +40,54 @@ initial_data = [{
     'summary': 'A detective investigates the death of a patriarch of an eccentric, combative family',
     'slug': 'knives-out-2020',
     'poster_url': 'https://m.media-amazon.com/images/M/MV5BMGUwZjliMTAtNzAxZi00MWNiLWE2NzgtZGUxMGQxZjhhNDRiXkEyXkFqcGdeQXVyNjU1NzU3MzE@._V1_UX182_CR0,0,182,268_AL_.jpg'
+  }
+  ,{
+    'id': 531730,
+    'name': 'M.S. Dhoni: The Untold Story',
+    'year': 2016,
+    'summary': 'The untold story of Mahendra Singh Dhonis journey from ticket collector to trophy collector the world-cup-winning captain of the Indian Cricket Team',
+    'slug': 'MS-Dhoni-The-Untold-Story-2016',
+    'poster_url': 'https://m.media-amazon.com/images/M/MV5BZjAzZjZiMmQtMDZmOC00NjVmLTkyNTItOGI2Mzg4NTBhZTA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR1,0,182,268_AL_.jpg'
+  },{
+    'id': 531770,
+    'name': 'M.S. Dhoni: The Untold Story',
+    'year': 2016,
+    'summary': 'The untold story of Mahendra Singh Dhonis journey from ticket collector to trophy collector the world-cup-winning captain of the Indian Cricket Team',
+    'slug': 'MS-Dhoni-The-Untold-Story-2015',
+    'poster_url': 'https://m.media-amazon.com/images/M/MV5BZjAzZjZiMmQtMDZmOC00NjVmLTkyNTItOGI2Mzg4NTBhZTA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR1,0,182,268_AL_.jpg'
+  },{
+    'id': 532330,
+    'name': 'M.S. Dhoni: The Untold Story',
+    'year': 2016,
+    'summary': 'The untold story of Mahendra Singh Dhonis journey from ticket collector to trophy collector the world-cup-winning captain of the Indian Cricket Team',
+    'slug': 'MS-Dhoni-The-Untold-Story-2014',
+    'poster_url': 'https://m.media-amazon.com/images/M/MV5BZjAzZjZiMmQtMDZmOC00NjVmLTkyNTItOGI2Mzg4NTBhZTA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR1,0,182,268_AL_.jpg'
+  },{
+    'id': 578730,
+    'name': 'M.S. Dhoni: The Untold Story',
+    'year': 2016,
+    'summary': 'The untold story of Mahendra Singh Dhonis journey from ticket collector to trophy collector the world-cup-winning captain of the Indian Cricket Team',
+    'slug': 'MS-Dhoni-The-Untold-Story-2013',
+    'poster_url': 'https://m.media-amazon.com/images/M/MV5BZjAzZjZiMmQtMDZmOC00NjVmLTkyNTItOGI2Mzg4NTBhZTA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR1,0,182,268_AL_.jpg'
+  },{
+    'id': 512330,
+    'name': 'M.S. Dhoni: The Untold Story',
+    'year': 2016,
+    'summary': 'The untold story of Mahendra Singh Dhonis journey from ticket collector to trophy collector the world-cup-winning captain of the Indian Cricket Team',
+    'slug': 'MS-Dhoni-The-Untold-Story-2012',
+    'poster_url': 'https://m.media-amazon.com/images/M/MV5BZjAzZjZiMmQtMDZmOC00NjVmLTkyNTItOGI2Mzg4NTBhZTA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR1,0,182,268_AL_.jpg'
+  },{
+    'id': 578123,
+    'name': 'M.S. Dhoni: The Untold Story',
+    'year': 2016,
+    'summary': 'The untold story of Mahendra Singh Dhonis journey from ticket collector to trophy collector the world-cup-winning captain of the Indian Cricket Team',
+    'slug': 'MS-Dhoni-The-Untold-Story-2011',
+    'poster_url': 'https://m.media-amazon.com/images/M/MV5BZjAzZjZiMmQtMDZmOC00NjVmLTkyNTItOGI2Mzg4NTBhZTA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR1,0,182,268_AL_.jpg'
+  },{
+    'id': 578986,
+    'name': 'M.S. Dhoni: The Untold Story',
+    'year': 2016,
+    'summary': 'The untold story of Mahendra Singh Dhonis journey from ticket collector to trophy collector the world-cup-winning captain of the Indian Cricket Team',
+    'slug': 'MS-Dhoni-The-Untold-Story-2010',
+    'poster_url': 'https://m.media-amazon.com/images/M/MV5BZjAzZjZiMmQtMDZmOC00NjVmLTkyNTItOGI2Mzg4NTBhZTA1XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY268_CR1,0,182,268_AL_.jpg'
   }]

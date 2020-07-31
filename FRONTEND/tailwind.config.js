@@ -15,7 +15,9 @@ module.exports = {
         green_main:'#3A4948',
         lygo_ping:'#d7aea1',
         Violet_web_color:'#EE82EE',
-        brave_teal:'#35d1c4'
+        brave_teal:'#35d1c4',
+        indigo_cool:'#3C6478',
+        dark_jungle_green:'#0D1F22'
 
 
       },

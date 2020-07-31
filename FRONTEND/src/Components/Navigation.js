@@ -22,11 +22,8 @@ function Navigation(){
 
     return (
         <nav>
-            <div className="m-4">
-                <button onClick={() => setShowMenu(!showMenu)} className=" hover:bg-pink-900 font-bold rounded-sm">
-                    <button>
-                        
-                    </button>
+            <div className="m-2">
+                <button onClick={() => setShowMenu(!showMenu)} className="hover:bg-pink-900 font-bold">
                     <FontAwesomeIcon 
                         icon={faBars}
                         color="white"

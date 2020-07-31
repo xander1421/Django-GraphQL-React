@@ -9,7 +9,6 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import MoviePage from "./pages/MoviePage.js" //New
 import MovieList from "./pages/MovieList.js" //New
-import SocialMedia from './Components/SubComponents/SocialMediaButtons.js'
 // function App() {
 //   return (
 //     <div className="relative pb-10 min-h-screen">
@@ -44,8 +43,7 @@ const App = () => {
   return (
         <Router>
             <Header className="header relative " />
-              <SocialMedia/>
-              <main className="p1 m-2">
+              <main className="xl:p-2 xl:pl-4 max-w-screen-xl">
                 <Switch>
                   <Route exact path="/" component={MovieList} />
                   {// colon before slug means it is a dynamic value
