@@ -2,20 +2,6 @@ import React from "react";
 import { useQuery } from "@apollo/react-hooks"
 import { Link } from "react-router-dom"
 
-import gql from "graphql-tag";
-
-
-
-// our first query will requests all movies
-// with only given fields
-// note the usage of gql with 'jsvascript string literal'
-export const MOVIE_LIST_QUERY = gql`
-    query movieList{
-        movieList{
-            name, posterUrl, slug, year
-        }
-    }
-`
 
 const MovieList = () => {
     const { loading, error, data } = useQuery(MOVIE_LIST_QUERY);
