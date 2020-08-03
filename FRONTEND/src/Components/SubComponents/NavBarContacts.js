@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { Link } from "react-router-dom"
-
+import {WhoAmI} from "../../pages/WhoAmI"
 // import Tooltip from './TooltipContacts'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPortrait, faMailBulk,faPaintBrush, faAddressBook } from '@fortawesome/free-solid-svg-icons'

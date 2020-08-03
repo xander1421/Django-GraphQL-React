@@ -42,7 +42,7 @@ import MovieList from "./pages/MovieList.js" //New
 const App = () => {
   return (
         <Router>
-            <Header className="header relative " />
+            <Header className="header relative"/>
               <main className="xl:p-2 xl:pl-4 max-w-screen-xl">
                 <Switch>
                   <Route exact path="/" component={MovieList} />

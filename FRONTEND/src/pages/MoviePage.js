@@ -19,7 +19,7 @@ export const MOVIE_QUERY = gql`
 
 const MoviePage = (props) => {
     // uncomment to see which props are passed from router
-    //console.log(props)
+    // console.log(props)
 
     // due to we make slug parameter dynamic in route component,
     // urlParameters will look like this { slug: 'slug-of-the-selected-movie' }
@@ -33,7 +33,7 @@ const MoviePage = (props) => {
     if (error) return <div>Unexpected Error: {error.message}</div>
   
     return (
-        <div className="text-white flex justify-center">
+        <div className="text-white flex justify-center pt-10">
         <Link to="/" className="text-gray-700 text-center bg-gray-400 ml-10 mb-10" >Back</Link>
             {data && data.movie && 
                 <div className="">
@@ -44,7 +44,7 @@ const MoviePage = (props) => {
                         title={data.movie.name + " poster"} 
                     />
                     <div className="px-3 m-2">
-                        <h1 className="text-2xl">{data.movie.name}</h1>
+                        <h1 className="text-4xl font-bold">{data.movie.name}</h1>
                         <p className="text-lg">Year: {data.movie.year}</p>
                         <br />
                         <p className="text-2xs">{data.movie.summary}</p>
